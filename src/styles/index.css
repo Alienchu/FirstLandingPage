@@ -5,27 +5,19 @@
 }
 
 .screen_1 {
-  /* max-width: 1920px; */
-
-  /* text-align: center; */
   background-image: url("../images/bg1.png");
   background-position: center;
   background-size: cover;
 }
 
 .header {
-  border-bottom: 3px solid #b180e4;;
-  margin: 0 auto;
+  border-bottom: 3px solid #b180e4;
 }
 
 .header-center {
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
   padding: 35px 0 35px 0;
-}
-
-.logotype {
-  /* padding: 35px 0 33px 0; */
 }
 
 .header-menu {
@@ -34,18 +26,122 @@
 }
 
 .header-menu-item {
-  display: inline-block;
   margin-left: 50px;
+  display: inline-block;
 }
 
 .header-menu-link {
-  text-decoration: none;
   font-size: 16px;
-  letter-spacing: 0px;
   color: #ede0f8;
+  text-decoration: none;
 }
 
 .main-top {
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
+  padding: 149px 0 205px 0;
+}
+
+.main-top-tittle {
+  width: 455px;
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.main-top p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 102px;
+}
+
+span {
+  margin-left: 15px;
+}
+
+.star {
+  vertical-align: bottom;
+}
+
+.main-center {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 0 125px 0;
+}
+
+.main-center-tittle {
+  font-size: 35px;
+  color: #8b67d6;
+  font-weight: bold;
+  margin-bottom: 67px;
+}
+
+.main-center p {
+  font-size: 16px;
+  color: #311b5e;
+  margin-bottom: 15px;
+}
+
+.screen_3 {
+  background-image: url("../images/bg2.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 0 140px 0;
+}
+
+.information {
+  max-width: 996px;
+  margin: 0 auto;
+  padding: 60px 0 44px 0;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.information-tittle {
+  font-size: 35px;
+  line-height: 55px;
+  color: #8b67d6;
+  font-weight: bold;
+  margin-bottom: 39px;
+}
+
+.information p {
+  padding: 0 204px;
+  margin-bottom: 29px;
+  width: 588px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #311b5e;
+}
+
+.footer {
+  border-top: 3px solid #b180e4;
+  padding: 46px 0 46px 0;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  padding: 22px 37px;
+}
+
+.information-button {
+  margin-top: 5px;
+  color: #b180e4;
+  border: 2px solid #b180e4;
+}
+
+.main-top-button {
+  color: #ffffff;
+  border: 2px solid white;
 }
